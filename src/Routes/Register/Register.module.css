@@ -1,0 +1,283 @@
+.logincontain{
+    height: 83vh;
+    width: 32%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.emaildiv{
+    height: 55vh;
+
+
+}
+.emaildiv h2{
+    font-size: 30px;
+    width: 25%;
+    margin: auto;
+    padding-top: 15px;
+
+}
+
+.name input{
+    border: 2px solid rgb(151, 201, 254);
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.email input{
+    border: 2px solid rgb(151, 201, 254);
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.pass input{
+    border: 2px solid rgb(151, 201, 254);
+
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.number input{
+    border: 2px solid rgb(151, 201, 254);
+
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.namehead{
+    width: 5vw;
+    margin-left:15%;
+}
+.namehead p{
+    font-size: 18px;
+}
+
+.emailhead{
+    width: 5vw;
+    margin-left:14%;
+}
+.emailhead p{
+    font-size: 18px;
+}
+.passhead{
+    width: 5vw;
+    margin-left:18%;
+}
+.passhead p{
+    font-size: 18px;
+
+}
+
+.phonehead {
+    width: 5vw;
+    margin-left:16%;
+}
+.phonehead p {
+    font-size: 18px;
+
+}
+.submit input{
+    border: none;
+    width: 20.5vw;
+    height: 5.9vh;
+    margin-top: 20px;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+}
+
+.ifuser h3{
+    font-size: 20px;
+}
+.submit input:hover{
+background-color: chartreuse;
+}
+
+@media only screen and (max-width:800px){
+    .logincontain{
+        height: 90vh;
+        width: 95%;
+        margin: auto;
+        margin-top: 40px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .emaildiv{
+        height: 55vh;
+    
+    
+    }
+    .name input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    .email input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    
+    .pass input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    .number input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .submit input{
+        border: none;
+        width: 35vw;
+        height: 6vh;
+        margin-top: 20px;
+        font-size: 21px;
+        border-radius: 5px;
+        background-color: teal;
+        color: white;
+    }
+
+    .emailhead{
+        width: 5vw;
+        margin-left:8%;
+    }
+
+    .passhead{
+        width: 5vw;
+        margin-left:8%;
+    }
+    .phonehead {
+        width: 5vw;
+        margin-left:8%;
+    }
+    .phonehead p {
+        font-size: 18px;
+    
+    }
+
+    .namehead{
+        width: 5vw;
+        margin-left:8%;
+    }
+    .namehead p{
+        font-size: 18px;
+    }
+    .ifuser h3{
+        
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    
+    .logincontain{
+        height: 85vh;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .emaildiv{
+        height: 55vh;
+    
+    
+    }
+    .name input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+
+    .email input{
+        border: 2px solid rgb(151, 201, 254);
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    
+    .pass input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    
+    }
+    .number input{
+        border: 2px solid rgb(151, 201, 254);
+    
+        width: 80vw;
+        height: 5vh;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+    .submit input{
+        border: none;
+        width: 45vw;
+        height: 6vh;
+        margin-top: 22px;
+        font-size: 21px;
+        border-radius: 5px;
+        background-color: teal;
+        color: white;
+    }
+
+    .emailhead{
+        width: 5vw;
+        margin-left:5%;
+    }
+   
+    .passhead{
+        width: 5vw;
+        margin-left:5%;
+    }
+    .phonehead {
+        width: 5vw;
+        margin-left:5%;
+    }
+    .phonehead p {
+        font-size: 18px;
+    
+    }
+
+    .namehead{
+        width: 5vw;
+        margin-left:6%;
+    }
+    .namehead p{
+        font-size: 18px;
+    }
+}

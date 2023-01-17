@@ -1,0 +1,77 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    background-color:white;
+    
+}
+.imgcontain{
+    display: flex;
+}
+.imgcontain img{
+    height: 10vh;
+}
+.imgcontain div{
+    font-size: 33px;
+    margin-top: 15px;
+}
+.btncontain button{
+ height: 8vh;
+ width: 7vw;
+ margin-top: 10px;
+ font-size: 26px;
+ border: none;
+ background-color: rgb(52, 212, 237);
+ border-radius: 15px;
+
+}
+.btncontain button:hover{
+    background-color: red;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+
+        width: 100%;
+        padding: 0px;
+    }
+    .btncontain button{
+        height: 8vh;
+        width: 15vw;
+        margin-top: 10px;
+        font-size: 24px;
+        border: none;
+        background-color: rgb(249, 221, 81);
+        border-radius: 15px;
+       
+       }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar{
+
+        width: 94%;
+        padding: 10px;
+    }
+
+    .btncontain button{
+        height: 8vh;
+        width: 24vw;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 20px;
+        border: none;
+        background-color: rgb(52, 215, 237);
+        border-radius: 15px;
+       
+       }
+
+       .imgcontain div{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+}
